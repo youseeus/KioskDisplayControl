@@ -13,3 +13,14 @@ you need at least
 - a high performance SD card (a slow SD card was a huge issue for me)
 - a good power supply
 - a display (you can use the official display. I'm using the waveshare Zero-DISP-7A)
+
+## setup 
+follow the official instructions for installation of rasbian. I recommend to preset WiFi, hostname, user and ssh before installing.
+
+- Clone this repo into the home directory.
+- rename config.example to config
+- run install
+  - install dependencies
+  - setup autostart
+    - start mqtt-listener
+    - start browser in kiosk mode 
